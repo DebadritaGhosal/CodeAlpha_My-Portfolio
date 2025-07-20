@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Debadrita Ghosal</h1>
+      <ul class="nav-links">
+        <li><a href="#welcome">Welcome</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menuToggle">&#9776;</div> 
+    </nav>
+  </header>  
+  </section>
+   <section id="welcome" class="hero-container">
+    <div class="hero-left">
+      <h1>Hello, I'm <span>Debadrita Ghosal</span></h1>
+      <p>Front-End Developer | Tech Enthusiast</p>
+      <p>I am a passionate Information Technology study with a love for blending technology with creativity.I am learning web development,implementing ideas through innovative designs and coding </p>
+      <div class="hero-buttons">
+        <a href="#about" class="hero-btnn">About Me</a>
+        <a href="https://www.linkedin.com/in/debadrita-ghosal-b8b602312/" class="hero-btnn1">Connect With Me</a>
+      </div>
+    </div>
+    <div class="hero-right"><img src="profile picture.jpg" height="430px" width="400px"></div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am a passionate developer with basic foundation in HTML, CSS and JS. I love building beautiful, functional websites.<br>
+       Contact Number:6291933912<br>
+       Email Id: khushighosal06@gmail.com<br>
+       Address: Balitikuri Brahminpara, Sadharan Pathagar, Howrah-711113<br>
+       GitHub: <a href="https://github.com/DebadritaGhosal" style="color: #fff;">DebadritaGhosal</a>
+     </p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+      <li>Java</li>
+      <li>Python</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Project One - Scholarship Survey Website</h3>
+        <p>This is my first project : A Scholarship Website made with HTML & CSS. It contains information about us, a survey page (i.e., a form to determine if a student is interested in the scholarship and to collect their personal details). After filling out and submitting the form, a response page appears, from where one can be redirected to the homepage. <a href="https://github.com/DebadritaGhosal/My-First-Project">View</a></p>
+      </div>
+      <div class="project-card">
+        <h3>Project Two - Image Gallery</h3>
+        <p>A responsive image gallery is created with HTML and CSS. JS is used for previous and next buttons. Hover effects and transitions added as well as image filters or catagories.Responsive design is made for different screen sizes. <a href="https://github.com/DebadritaGhosal/CodeAlpha_Image-Gallery">View</a></p>
+      </div>
+      <div class="project-card">
+        <h3>Project Three - Cafe Website Seb's</h3>
+        <p>A webpage for "Seb's Cafe," crafted entirely with HTML and CSS. This project showcases a clean and inviting design suitable for a local cafe's online website, featuring essential sections like menu, about, and contact information. It also provides the Special Offers section and Toggle theme button as additional features. <a href="https://github.com/DebadritaGhosal/Cafe-Webpage---Seb-s">View</a></p>
+      </div>
+       <div class="project-card">
+        <h3>Project Four - Maveen</h3>
+        <p>A Collaborative Project Website similar to that of Maveen Clinic, for booking demo appointments with doctors. <a href="https://github.com/dipuda-007/Maveen">View</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="section">
+    <h2>Resume</h2>
+    <p>Please check my Resume attached below !</p>
+    <a class="btn" href="Resume.pdf" download>Download Resume</a>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required/>
+      <input type="email" placeholder="Your Email" required/>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="offer-btn" onclick="showModal()">Send</button>
+    </form>
+    <div class="modal" id="offerModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h4>Thankyou for contacting me !!</h4>
+    </div>
+  </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Debadrita Ghosal. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
