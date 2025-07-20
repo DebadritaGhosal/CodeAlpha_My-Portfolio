@@ -23,8 +23,7 @@ function closeModal() {
       document.getElementById('offerModal').style.display = 'none';
 }
 const menuToggle = document.getElementById('menuToggle');
-const navLinks = document.getElementById('navLinks');
-
+const navLinks = document.querySelector('.nav-links'); 
 if (menuToggle && navLinks) { 
         menuToggle.addEventListener('click', () => {
         navLinks.classList.toggle('active');
